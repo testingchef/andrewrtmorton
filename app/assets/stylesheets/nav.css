@@ -2,10 +2,10 @@ nav {
     display: flex;
     justify-content: space-between;
     border-bottom: solid;
+    background-color: black;
 
     .logo {
-        flex: 1 1 auto;
-        font-size: 2rem;
+        height: 100px;
     }
 
     .nav-items {
