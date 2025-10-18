@@ -2,7 +2,15 @@
 inherit_gem: { rubocop-rails-omakase: rubocop.yml }
 
 # Overwrite or add rules to create your own house style
-#
-# # Use `[a, [b, c]]` not `[ a, [ b, c ] ]`
-# Layout/SpaceInsideArrayLiteralBrackets:
-#   Enabled: false
+
+# Use `[a, [b, c]]` not `[ a, [ b, c ] ]`
+Layout/SpaceInsideArrayLiteralBrackets:
+  Enabled: false
+
+# Prevent spaces around braces in hashes
+Layout/SpaceInsideHashLiteralBraces:
+  Enabled: false
+
+# Allow space after class definition
+Layout/EmptyLinesAroundClassBody:
+  EnforceStyle: empty_lines_expect_namespace
