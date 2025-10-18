@@ -1,0 +1,8 @@
+:root {
+    --primary: blue;
+    --secondary: grey;
+    --info: orange;
+    --success: green;
+    --warn: yellow;
+    --failure: red;
+}

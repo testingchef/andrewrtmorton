@@ -8,3 +8,27 @@
  *
  * Consider organizing styles into separate files for maintainability.
  */
+
+@import "colours.css";
+@import "nav.css";
+
+body {
+    height: 100%;
+    margin: 0px;
+    overflow-x: hidden;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 auto;
+
+    .main-content {
+        align-self: center;
+        max-width: 95%;
+
+        @media (min-width: 1200px) {
+            max-width: 1300px;
+        }
+    }
+}

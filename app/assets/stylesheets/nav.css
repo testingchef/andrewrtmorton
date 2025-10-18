@@ -1,0 +1,18 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: solid;
+
+    .logo {
+        flex: 1 1 auto;
+        font-size: 2rem;
+    }
+
+    .nav-items {
+        flex: 1 1 auto;
+    }
+
+    .nav-actions {
+        flex: 1 1 auto;
+    }
+}
